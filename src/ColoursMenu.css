@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0px;
+	padding:0px;
+}
+
+header{
+	margin-left:auto;
+	margin:50px auto;
+	width:1200px;
+	height:120px;
+	}
+	
+div.box{
+	width:120px;
+	height:150px;
+	float:left;
+	border-radius:15px; /* it works for all Browsers*/
+	-moz-transition: height .4s;
+	-webkit-transition: height .4s;
+	}
+
+
+div#Amazon{
+	background: -webkit-linear-gradient(#CC0000, #FF6600); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#CC0000, #FF6600); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#CC0000, #FF6600); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#CC0000, #FF6600); /* Standard syntax */
+}
+
+div#Bloger{
+	background: -webkit-linear-gradient(#FF9900, #FFFF33); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#FF9900, #FFFF33); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#FF9900, #FFFF33); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#FF9900, #FFFF33); /* Standard syntax */
+}
+
+div#DropBox{
+	background: -webkit-linear-gradient(#000099, #0000FF); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#000099, #0000FF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#000099, #0000FF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#000099, #0000FF); /* Standard syntax */
+}
+
+div#Flicker{
+	background: -webkit-linear-gradient(#990066, #9933CC); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#990066, #9933CC); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#990066, #9933CC); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#990066, #9933CC); /* Standard syntax */
+}
+
+div#GooglePlus{
+	background: -webkit-linear-gradient(#339900, #33CC33); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#339900, #33CC33); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#339900, #33CC33); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#339900, #33CC33); /* Standard syntax */
+}
+
+div#LinkedIn{
+	background: -webkit-linear-gradient(#CC0000, #FF6600); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#CC0000, #FF6600); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#CC0000, #FF6600); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#CC0000, #FF6600); /* Standard syntax */
+}
+
+div#RSSFeed{
+	background: -webkit-linear-gradient(#FF9900, #FFFF33); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#FF9900, #FFFF33); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#FF9900, #FFFF33); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#FF9900, #FFFF33); /* Standard syntax */
+}
+
+div#Skype{
+	background: -webkit-linear-gradient(#000099, #0000FF); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#000099, #0000FF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#000099, #0000FF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#000099, #0000FF); /* Standard syntax */
+}
+
+div#Vimeo{
+	background: -webkit-linear-gradient(#990066, #9933CC); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#990066, #9933CC); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#990066, #9933CC); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#990066, #9933CC); /* Standard syntax */
+}
+
+div#Youtube{
+	background: -webkit-linear-gradient(#339900, #33CC33); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#339900, #33CC33); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#339900, #33CC33); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#339900, #33CC33); /* Standard syntax */
+}
+
+img.menu-logo{
+	width:80px;
+	height:80px;
+	background-color:#FFFFFF;
+	display:block;
+	margin:20px;
+	border-radius:50px;
+	box-shadow: 0px 0px 0px 0px rgba(255,255,255, .15);
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(255,255,255, .15);
+	-moz-transition:box-shadow .4s;
+	-webkit-transition:box-shadow .4s;
+}
+
+p.menu-text{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	color:white;
+	-moz-transition: padding-top .4s; /*firefox*/
+	-webkit-transition: padding-top .4s; /*opera, chrome, safari*/
+}
+
+div.box:hover {
+	height:165px;
+}
+
+div.box:hover img.menu-logo {
+	margin:15px;
+	padding:5px;
+	box-shadow: 0px 0px 0px 15px rgba(255,0,0, .25); /*firefox*/
+	-webkit-box-shadow: 0px 0px 0px 15px rgba(255,0,0, .25); /*opera, chrome, safari*/
+}
+
+div.box:hover p.menu-text {
+	padding-top:10px;
+}
